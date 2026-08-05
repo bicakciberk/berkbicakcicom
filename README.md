@@ -81,7 +81,3 @@ Visit the website:
 - 📧 Email: bicakciberk@outlook.com
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.

@@ -1,0 +1,46 @@
+.body-night {
+  background-color: #18181b;
+}
+
+.header-night {
+  color: #f8fafc;
+}
+
+.paragraph-night {
+  color: #c9d1d9;
+}
+
+.icon-night,
+.activity-night {
+  color: #c9d1d9;
+}
+
+.icon-night:hover,
+.activity-night:hover {
+  color: #9ec7a7;
+}
+
+.border {
+  border-top-color: #e5e7eb;
+  border-top-width: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.border-night {
+  border-top-color: #3f3f46;
+}
+
+.card:hover {
+  background: #f3f8f4;
+}
+
+.body-night .card:hover {
+  background: #27272a;
+}
+
+.body-night ::selection {
+  background: #27272a;
+  color: #9ec7a7;
+}

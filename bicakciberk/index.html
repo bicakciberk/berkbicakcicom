@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Seo Tags-->
     <meta
@@ -87,13 +88,18 @@
     <div
       class="hero flex flex-col justify-center items-center mt-[64px] max-[800px]:mt-[48px] max-[650px]:mt-[32px]"
     >
-      <h1
-        class="text-[32px] font-semibold text-[#101827] max-[800px]:text-[28px] max-[650px]:text-[24px]"
+     <div class="nav max-w-[620px] w-full flex items-center justify-between">
+      <div class="w-[10px] h-[10px]"></div>
+       <h1
+        class="header text-[32px] font-semibold text-[#101827] max-[800px]:text-[28px] max-[650px]:text-[24px] max-[560px]:ml-[20px]"
       >
         Berk Bıçakcı
       </h1>
+       <ion-icon id="day" class="icon hover:text-[#9ec7a7] duration-200 text-[26px] text-[#3a414b] cursor-pointer max-[560px]:mr-[20px]  max-[800px]:text-[22px] max-[800px]:text-[20px]" name="sunny-outline"></ion-icon>
+       <ion-icon id="night" class="icon text-[26px] text-[#3a414b] duration-200 cursor-pointer hidden max-[560px]:mr-[20px]  max-[800px]:text-[22px] max-[800px]:text-[20px]" name="moon-outline"></ion-icon>
+     </div>
       <p
-        class="text-[#3A414B] max-w-[620px] text-center mt-[12px] max-[800px]:text-[15px] max-[800px]:max-w-[460px] max-[800px]:mt-[8px] max-[650px]:text-[14px] max-[800px]:max-w-[450px] max-[650px]:mt-[4px] max-[560px]:px-[20px]"
+        class="paragraph text-[#3A414B] max-w-[620px] text-center mt-[12px] max-[800px]:text-[15px] max-[800px]:max-w-[460px] max-[800px]:mt-[8px] max-[650px]:text-[14px] max-[800px]:max-w-[450px] max-[650px]:mt-[4px] max-[560px]:px-[20px]"
       >
         Aspiring student passionate about learning, coding as a hobby, and
         making a social impact. Currently preparing for university entrance
@@ -105,35 +111,35 @@
         <a
           href="https://www.instagram.com/berkbicakci/"
           target="_blank"
-          class="instagram text-[26px] hover:text-[#9EC7A7] duration-250 text-[#525D6A] max-[800px]:text-[22px] max-[800px]:text-[20px]"
+          class="icon instagram text-[26px] hover:text-[#9EC7A7] duration-250 text-[#3a414b] max-[800px]:text-[22px] max-[800px]:text-[20px]"
         >
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
         <a
           href="https://www.goodreads.com/bicakciberk"
           target="_blank"
-          class="goodreads text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#525D6A] max-[800px]:text-[22px] max-[800px]:text-[20px]"
+          class="icon goodreads text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#3a414b] max-[800px]:text-[22px] max-[800px]:text-[20px]"
         >
           <ion-icon name="book-outline"></ion-icon>
         </a>
         <a
           href="https://www.linkedin.com/in/bicakciberk/"
           target="_blank"
-          class="linkedin text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#525D6A] max-[800px]:text-[22px] max-[800px]:text-[20px]"
+          class="icon linkedin text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#3a414b] max-[800px]:text-[22px] max-[800px]:text-[20px]"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
         <a
           href="https://github.com/bicakciberk"
           target="_blank"
-          class="github text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#525D6A] max-[800px]:text-[22px] max-[800px]:text-[20px]"
+          class="icon github text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#3a414b] max-[800px]:text-[22px] max-[800px]:text-[20px]"
         >
           <ion-icon name="logo-github"></ion-icon>
         </a>
         <a
           href="https://open.spotify.com/user/31ecvyd5bcpm2rajwrddanux3l44"
           target="_blank"
-          class="spotify text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#525D6A] max-[800px]:text-[22px] max-[800px]:text-[20px]"
+          class="icon paragraph spotify text-[26px] ml-[15px] hover:text-[#9EC7A7] duration-250 text-[#3a414b] max-[800px]:text-[22px] max-[800px]:text-[20px]"
         >
           <ion-icon name="musical-notes-outline"></ion-icon>
         </a>
@@ -143,9 +149,9 @@
     <div
       class="about flex flex-col items-center justify-center mt-[64px] max-[800px]:mt-[48px] max-[650px]:mt-[32px]"
     >
-      <h2 class="text-[#101827] text-[18px] font-medium">About Me</h2>
+      <h2 class="header text-[#101827] text-[18px] font-medium">About Me</h2>
       <p
-        class="text-[#3A414B] text-center max-w-[620px] mt-[12px] max-[800px]:text-[15px] max-[800px]:mt-[8px] max-[650px]:text-[14px] max-[800px]:max-w-[500px] max-[800px]:max-w-[450px] max-[560px]:px-[20px]"
+        class="paragraph text-[#3A414B] text-center max-w-[620px] mt-[12px] max-[800px]:text-[15px] max-[800px]:mt-[8px] max-[650px]:text-[14px] max-[800px]:max-w-[500px] max-[800px]:max-w-[450px] max-[560px]:px-[20px]"
       >
         Hi, I'm Berk. My world revolves around learning and making an
         impact—whether that's contributing to social projects like Catchafire,
@@ -160,7 +166,7 @@
     <div
       class="impact flex flex-col items-center justify-center mt-[64px] max-[800px]:mt-[48px] max-[650px]:mt-[32px]"
     >
-      <h2 class="text-[#101827] text-[18px] font-medium">
+      <h2 class="header text-[#101827] text-[18px] font-medium">
         Impact & Achievements
       </h2>
 
@@ -168,7 +174,7 @@
         <a
           target="_blank"
           href="https://www.catchafire.org/profiles/3330056/about"
-          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer hover:bg-gray-50 py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[4px] max-[650px]:px-[8px] max-[650px]:py-[0px]"
+          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[4px] max-[650px]:px-[8px] max-[650px]:py-[0px]"
         >
           <h1
             class="text-[#9EC7A7] font-medium text-[26px] max-[800px]:text-[22px]"
@@ -176,7 +182,7 @@
             $9,136+
           </h1>
           <p
-            class="text-[#3A414B] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
+            class="paragraph text-[#3A414B] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
           >
             Social impact generated through Catchafire volunteer projects
           </p>
@@ -188,7 +194,7 @@
         <a
           target="_blank"
           href="https://icscompetition.org/c/PerformanceReport-PR-2025-FF7A6D7C715-a2ad1d60c92ccd080b52694f1f6419c2.pdf?t=1768045252"
-          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer hover:bg-gray-50 py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
+          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
         >
           <h1
             class="text-[#9EC7A7] font-medium text-[26px] max-[800px]:text-[22px]"
@@ -196,7 +202,7 @@
             Certified
           </h1>
           <p
-            class="text-[#3A414B] max-w-[250px] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
+            class="paragraph text-[#3A414B] max-w-[250px] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
           >
             International Computer Science Competition
           </p>
@@ -204,7 +210,7 @@
         <a
           target="_blank"
           href="https://www.coursera.org/account/accomplishments/specialization/certificate/8IPWBRV5511I"
-          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer hover:bg-gray-50 py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
+          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
         >
           <h1
             class="text-[#9EC7A7] font-medium text-[26px] max-[800px]:text-[22px]"
@@ -212,7 +218,7 @@
             Certified
           </h1>
           <p
-            class="text-[#525D6A] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
+            class="paragraph text-[#3a414b] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
           >
             University of London: Introduction to Computer Science and
             Programming
@@ -225,7 +231,7 @@
         <a
           target="_blank"
           href="https://academy.patika.dev/certificates/2cc23083"
-          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer hover:bg-gray-50 py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
+          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer py-[8px] px-[16px] duration-250 rounded-md max-[800px]:w-[300px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
         >
           <h1
             class="text-[#9EC7A7] font-medium text-[26px] max-[800px]:text-[22px]"
@@ -233,7 +239,7 @@
             Certified
           </h1>
           <p
-            class="text-[#3A414B] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
+            class="paragraph text-[#3A414B] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
           >
             Patika.dev: Beginner Frontend Web Development Path
           </p>
@@ -241,7 +247,7 @@
         <a
           target="_blank"
           href="https://www.coursera.org/account/accomplishments/certificate/BNZ5H8C2WOYP"
-          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer hover:bg-gray-50 duration-250 rounded-md max-[800px]:w-[300px] py-[8px] px-[16px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
+          class="card w-[350px] h-[115px] flex flex-col items-center catchafire cursor-pointer duration-250 rounded-md max-[800px]:w-[300px] py-[8px] px-[16px] max-[800px]:py-[6px] max-[800px]:px-[12px] max-[650px]:py-[0px]"
         >
           <h
             class="text-[#9EC7A7] font-medium text-[26px] max-[800px]:text-[22px]"
@@ -249,7 +255,7 @@
             Certified
           </h>
           <p
-            class="text-[#525D6A] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
+            class="paragraph text-[#3a414b] text-center mt-[8px] max-[800px]:text-[15px] max-[650px]:text-[14px]"
           >
             Meta: Front-End Development
           </p>
@@ -258,33 +264,33 @@
     </div>
 
     <div
-      class="interests flex flex-col items-center justify-center mt-[64px] mb-[24px] max-[650px]:mt-[-24px]"
+      class="hobbies flex flex-col items-center justify-center mt-[64px] mb-[24px] max-[650px]:mt-[-24px]"
     >
-      <h2 class="text-[#101827] text-[18px] font-medium">Interests</h2>
+      <h2 class="header text-[#101827] text-[18px] font-medium">Interests</h2>
       <div class="cat flex items-center justify-center mt-[12px]">
         <p
-          class="coffee text-[#56606C] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
+          class="activity coffee text-[#3a414b] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
         >
           Coffee
         </p>
 
         <p
-          class="reading text-[#56606C] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
+          class="activity reading text-[#3a414b] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
         >
           Reading
         </p>
         <p
-          class="chess text-[#56606C] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
+          class="activity chess text-[#3a414b] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
         >
           Chess
         </p>
         <p
-          class="travelling text-[#56606C] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
+          class="activity travelling text-[#3a414b] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
         >
           Travelling
         </p>
         <p
-          class="winter text-[#56606C] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
+          class="activity winter text-[#3a414b] ml-[15px] cursor-pointer hover:text-[#9EC7A7] duration-250 max-[800px]:text-[15px] max-[650px]:text-[14px]"
         >
           Winter
         </p>
@@ -292,9 +298,9 @@
     </div>
 
     <div
-      class="footer flex items-center justify-center py-[16px] border-solid border-t-2 border-[#F3F5F6] w-full max-[800px]:py-[12px] max-[800px]:text-[15px]"
+      class="border footer flex items-center justify-center py-[16px] w-full max-[800px]:py-[12px] max-[800px]:text-[15px]"
     >
-      <p class="text-[#56606C]">bicakciberk@outlook.com</p>
+      <p class="paragraph text-[#3a414b]">bicakciberk@outlook.com</p>
     </div>
 
     <script src="script.js"></script>

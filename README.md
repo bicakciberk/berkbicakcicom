@@ -18,10 +18,10 @@ A modern and responsive personal portfolio website built to showcase my projects
 ---
 
 ## 📸 Preview
-<img width="1882" height="975" alt="Image" src="https://github.com/user-attachments/assets/1470fa62-8586-4cbd-a1c4-e5f38ac8bc55" />
-<img width="1882" height="968" alt="Image" src="https://github.com/user-attachments/assets/11835997-1e40-4094-b970-71d84619c664" />
-<img width="1885" height="977" alt="Image" src="https://github.com/user-attachments/assets/a325ac42-8011-457a-bbcb-debaa02a0f76" />
-<img width="1882" height="982" alt="Image" src="https://github.com/user-attachments/assets/bcbac0cc-f097-49bd-b757-a34bd4f14e2e" />
+<img width="1888" height="971" alt="Image" src="https://github.com/user-attachments/assets/31774b9b-644b-48b4-905e-5b6924d23b96" />
+<img width="1886" height="967" alt="Image" src="https://github.com/user-attachments/assets/69a5e59e-bdaa-49b0-bb1b-f8bb0711f15c" />
+<img width="1880" height="965" alt="Image" src="https://github.com/user-attachments/assets/57d5dc33-4d83-4942-a278-33229ce14585" />
+<img width="1882" height="973" alt="Image" src="https://github.com/user-attachments/assets/7e01c108-9490-40a6-80f8-b6be2153b1ee" />
 
 ## 🛠️ Technologies
 
